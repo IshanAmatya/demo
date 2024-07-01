@@ -1,0 +1,21 @@
+.logo
+{
+    width:100%;
+}
+.m
+{
+    margin-left: -20px;
+    border-radius:50%;
+}
+.button
+{
+    border-radius: 50%;
+}
+.button
+{
+    background-color: red;
+    font-size: large;
+}
+.img
+{width: 100px;
+}

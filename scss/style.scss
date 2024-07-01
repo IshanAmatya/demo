@@ -1,0 +1,44 @@
+
+$brand:blue;
+$size:300px;
+.box
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $brand;
+    width: $size;
+    height: $size;
+}
+nav
+{
+    background: green;
+    ul
+    {
+        list-style: none ;
+        li
+        {
+            display:block;
+            a
+            {
+                color:$brand;
+                &:hover
+                {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+@import 'header';
+.box
+{border:2px solid black; padding: 40px;}
+    @mixin flex($ab:space-between)
+    {
+        display:flex;
+        justify-content: $ab;
+    }
+    .con{@include flex}
+    .con1{@include flex(start)}
+    .con2{@include flex(center)}
+    .con3{@include flex(end)}

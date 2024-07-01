@@ -1,0 +1,39 @@
+.m
+{
+    margin-left: -20px;
+    border-radius:0 5px 5px 0;
+}
+.menu
+{
+    background-color: #4570b6;
+}
+.img
+{
+    width:100%
+}
+.but
+{
+    align-items: center;
+}
+.products
+{
+    position: relative;
+}
+.pcontent
+{
+    position:absolute;
+    width:100%;
+    bottom: 0;
+    transition: 0.9s;
+    bottom:-30px;
+}
+.products:hover.pcontent
+{
+    bottom:30px;
+}
+.mySwipper
+{
+    width:100%;
+    text-align: center;
+}
+
